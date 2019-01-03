@@ -11,8 +11,8 @@
     ],
     "require": {
         "php": ">=5.5",
-        "symfony/dom-crawler": "^3.2",
-        "symfony/css-selector": "^3.2",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^4.2",
         "ext-gd":"*",
         "ext-curl":"*",
         "jansenfelipe/utils": "^2.0"
@@ -34,5 +34,6 @@
         "jansenfelipe/cpf-gratis": "Permite consulta de CPF no site da receita",
         "jansenfelipe/cep-gratis": "Permite consulta de CEP no site dos Correios"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
